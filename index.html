@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h2>Minimalistic Music Player</h2>
+    <div class="player">
+
+        <img id="cover" src="assets/song1.jpeg" height="230px" alt="Cover Image">
+
+        <h2 id="title">Song Name</h2>
+
+        <audio id="audio"></audio>
+
+        <div class="controls">
+            <button id="prev"><img src="./assets/back.png" height="10px"></button>
+            <button id="play"><img src="./assets/play.png" height="10px"></button>
+            <button id="next"><img src="assets/next.png" height="10px"></button>
+
+        </div>
+
+        <div class="time">
+            <span id="current">0:00</span>
+            <input type="range" id="progress" value="0" max="100">
+            <span id="duration">0:00</span>
+        </div>
+
+        <div class="playlist">
+            <h3>Playlist</h3>
+            <ul id="trackList">
+
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Made By Nitesh Gurjar</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

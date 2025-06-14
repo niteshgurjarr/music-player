@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333446;
+    color: white;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body>h2 {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #FBDB93;
+    margin-bottom: 5px;
+}
+
+.player {
+    background-color: #7F8CAA;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#title {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.controls {
+    margin: 15px 0;
+}
+
+.controls button {
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    background-color: #B8CFCE;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background-color: #555;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#progress {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.playlist {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 120px;
+    /* or more depending on your layout */
+    overflow-y: auto;
+    padding-right: 5px;
+
+    /* Hide scrollbar but keep scrolling */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+.playlist::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+
+.playlist h3 {
+    color: #EAEFEF;
+    margin-bottom: 10px;
+}
+
+#trackList li {
+    list-style: none;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#trackList li:hover {
+    background-color: #2a2a2a;
+}
+
+#cover {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+@media (max-width: 580px) {
+    h2 {
+        text-align: center;
+    }
+}
+
+footer {
+    margin: 5px;
+    padding: 5px;
+}
