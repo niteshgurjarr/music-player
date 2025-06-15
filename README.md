@@ -1,4 +1,7 @@
-# 🎵 Minimalistic Music Player
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=DM+Serif+Text&size=30&pause=1000&color=FEC260&center=true&vCenter=true&width=600&lines=🎵+Minimalistic+Music+Player;Built+with+HTML%2C+CSS%2C+JS+🛠️" alt="Typing SVG" />
+</p>
+
 
 A clean, responsive, and stylish music player built with **HTML**, **CSS**, and **JavaScript**. It supports audio playback, track switching, custom playlist UI, and interactive progress control – all in a minimal UI with a touch of elegance.
 
